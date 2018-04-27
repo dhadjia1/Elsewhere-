@@ -422,7 +422,7 @@ var scale = startScale;
 ctx.fillStyle = "black";
 ctx.fillRect(0,0,width,height);
 var timerId, zoomId; 
-var TR = 75;
+var TR = 25;
 var options = [0,1,0,0];
 var numZooms = 0;
 var wasd_io = false;
