@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Elsewhere</title>
+	<link rel="stylesheet" type="text/css" href="indexStyle.css">
+
+
+</head>
+<body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="userMenu.js"></script>
+
+	<div class="container">
+		<div class="userdropdown">
+			<button class="dropbtn" onclick="userInputButton()">Options</button>
+			<div class="userdropdown-content" id="userDropdown">
+				<a href="#">Paint-style</a>
+				<a href="#">Zoomable</a>
+			</div>
+		</div>
+		<button class="menuChoice" id="stopPainting">Pause painting</button>
+		<button class="menuChoice" id="continuePainting">Continue painting</button>
+		<button class="menuChoice" id="resetPainting">Reset painting</button>
+		<button class="menuChoice" id="toggleZOI">ZOI toggle</button>
+		<button class="menuChoice" id="goToAboutPage">About</a>
+
+	</div>
+	<canvas id="mockCanvas" width = "1920" height = "1080"></canvas>
+	<canvas id="myCanvas" width = "1920" height = "1080"></canvas>
+	<script type="text/javascript" src="canvasScript.js"></script>
+
+
+</body>
+</html>
